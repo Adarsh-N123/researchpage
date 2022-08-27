@@ -1,0 +1,494 @@
+.column{
+    width: 100%;
+    margin-top:40px;
+    list-style-type: none;
+    display: inline-block;
+    z-index: 1;
+}
+.columnpart1{
+    float: left;
+    width: 25%;
+    
+
+}
+.columnpart2{
+    float:right;
+    width:60%;
+    margin-left: 20px;
+}
+#cardcolumn1{
+    display: none;
+}
+#body{
+    width: 94vw;
+    
+    margin-left: 3vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+}
+#loader{
+    display: none;
+}
+#datacolumn{
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+#cardcolumn{
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+#imgcar{
+    width: 25vw;height:20vw;
+}
+@media screen and (max-width:800px) {
+    .columnpart1{
+        width:30%;
+    }
+    
+    
+}
+.carousel-inner{
+    margin-top:30px;
+    width: 60%;
+}
+#list{
+    list-style-type: none;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+#elem{
+    list-style-type: none;
+    float: left;
+    border-radius:1rem;
+    width:12vw;
+    height: 15vw;
+    margin-left:-4%;
+
+}
+#elem1{
+    float: left;
+    border-radius:1rem;
+    width:12vw;
+    height: 15vw;
+    margin-left:3vw;
+
+}
+#img{
+    border-radius: 0.5rem;
+    width:12vw;
+    height:15vw;
+    
+    
+    
+    margin-top: 10px;
+}
+#img1{
+    border-radius: 0.5rem;
+    width:12vw;
+    height:20vw;
+    
+    
+    margin-top: 10px;
+}
+#img10{
+    border-radius: 0.5rem;
+    width:12vw;
+    height:15vw;
+    
+    
+    margin-top: 10px;
+}
+#caro{
+    width:20vw;margin-left:32%;
+}
+#caroim{
+    height:20vw;border-radius:1rem;
+
+}
+#carobtn{
+    background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:8vw;margin-left:40px;
+}
+#carobtn1{
+    background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:8vw;margin-right:40px;
+}
+
+#card{
+    position: relative;
+    
+    margin-top:130px;
+    width:20vw;
+    margin-left: 20px;
+    
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    transition:0.3s;
+    padding: 20px 30px;
+    
+    
+    background-color: white;
+}
+#imgbox{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50px);
+    z-index: 0;
+}
+#imgo{
+    width: 100%;
+    border-radius: 10px;
+    height: 230px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+}
+.content{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(183, 182, 182);
+    border-radius: 10px;
+    
+
+}
+#list2{
+    list-style-type: none;
+}
+#card:hover{
+    height: 600px;
+    transform: translateY(-50px);
+}
+#card:hover > .content{
+    opacity: 1;
+    transform: translateY(-300px);
+}
+
+.button1{
+    width: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transform: translateY(-280px);
+    opacity: 0;
+    
+}
+#card:hover button{
+    opacity:1;
+}
+@media screen and (max-width:900px) {
+    .column{
+        width: 100%;
+        margin-top:40px;
+        list-style-type: none;
+        display:list-item;
+        z-index: 1;
+    }
+    #imgcar{
+        width: 40vw;height:30vw;
+    }
+    .columnpart1{
+        float: none;
+        margin-top:30px;
+        width: 25%;
+        display: none;
+        
+    
+    }
+    .columnpart2{
+        float:none;
+        width:90%;
+        margin-left: -30px;
+    }
+    #cardcolumn1{
+        display: block;
+        margin-left: -10%;
+    }
+    #card{
+        width:300px;
+    }
+    #caro{
+        width:50vw;
+        margin-left: 21%;
+        
+
+
+    }
+    #caroim{
+        width: 50vw;
+        height: 50vw;
+
+    }
+    #list{
+        margin-left:25%;
+    }
+    .columnpart2{
+        margin-left: 10%;
+    }
+    #carobtn{
+        background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:25vw;margin-left:40px;
+    }
+    #carobtn1{
+        background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:25vw;margin-right:40px;
+    }
+    
+
+    
+}
+
+
+
+
+#npage, #npage1, #npage2 {
+    display: none;
+
+}
+@media screen and (max-width:500px) {
+    #body{
+        margin-top:80px;
+        
+    }
+    #caro{
+        width:50vw;margin-left:21%;
+    }
+    #caroim{
+        height:50vw;border-radius:1rem;
+    
+    }
+    #carobtn{
+        background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:25vw;margin-left:40px;
+    }
+    #carobtn1{
+        background-color: rgb(2, 7, 59); height:4vw;width:4vw;border-radius:10rem;margin-top:25vw;margin-right:40px;
+    }
+    #elem{
+        list-style-type: none;
+        float: left;
+        border-radius:1rem;
+        width:25vw;
+        height:20vw;
+        margin-left:-34%;
+    
+    }
+    #elem1{
+        float: left;
+        border-radius:1rem;
+        width:25vw;
+        height:20vw;
+        margin-left:3vw;
+    
+    }
+    #img{
+        border-radius: 0.5rem;
+        width:25vw;
+        height:20vw;
+        
+        
+        
+        margin-top: 10px;
+    }
+    #img10{
+        border-radius: 0.5rem;
+        width:25vw;
+        height:20vw;
+        
+        
+        margin-top: 10px;
+    }
+
+    
+}
+@media screen and (max-width:900px) {
+    #elem{
+        list-style-type: none;
+        float: left;
+        border-radius:1rem;
+        width:27vw;
+        height:30vw;
+        margin-left:-40%;
+    
+    }
+    #elem1{
+        float: left;
+        border-radius:1rem;
+        width:27vw;
+        height:30vw;
+        margin-left:3vw;
+    
+    }
+    #img{
+        border-radius: 0.5rem;
+        width:27vw;
+        height:30vw;
+        
+        
+        
+        margin-top: 10px;
+    }
+    #img10{
+        border-radius: 0.5rem;
+        width:27vw;
+        height:30vw;
+        
+        
+        margin-top: 10px;
+    }
+    
+}
+#elem2{
+    list-style-type: none;
+    float: left;
+    border-radius:1rem;
+    width:13vw;
+    height: 20vw;
+    margin-left:-15%;
+
+}
+#elem2:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+#elem3{
+    float: left;
+    border-radius:1rem;
+    width:13vw;
+    height: 20vw;
+    margin-left:2vw;
+
+}
+#elem3:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+#img2{
+    border-radius: 0.5rem;
+    width:13vw;
+    height:22vw;
+    
+    
+    
+    margin-top: 10px;
+}
+#img3{
+    border-radius: 0.5rem;
+    width:13vw;
+    height:22vw;
+    
+    
+    margin-top: 10px;
+}
+#name1{
+    font-size: 1vw;
+}
+@media screen and (max-width:900px) {
+    #elem2{
+        list-style-type: none;
+        float: left;
+        border-radius:1rem;
+        width:25vw;
+        height: 40vw;
+        margin-left:-30%;
+    
+    }
+    #elem2:hover{
+        scale: 1.1;
+        transition: 0.3s;
+    }
+    #elem3{
+        float: left;
+        border-radius:1rem;
+        width:25vw;
+        height: 40vw;
+        margin-left:2vw;
+    
+    }
+    #elem3:hover{
+        scale: 1.1;
+        transition: 0.3s;
+    }
+    #img2{
+        border-radius: 0.5rem;
+        width:25vw;
+        height:40vw;
+        
+        
+        
+        margin-top: 10px;
+    }
+    #img3{
+        border-radius: 0.5rem;
+        width:25vw;
+        height:40vw;
+        
+        
+        margin-top: 10px;
+    }
+    #name1{
+        font-size: 1.7vw;
+    }
+    
+    
+}
+@media screen and (max-width:500px) {
+
+    #elem2{
+        list-style-type: none;
+        float: none;
+        border-radius:1rem;
+        width:45vw;
+        height: 60vw;
+        margin-left: -60%;
+        
+    
+    }
+    #elem2:hover{
+        scale: 1.1;
+        transition: 0.3s;
+    }
+    #elem3{
+        float: none;
+        border-radius:1rem;
+        width:45vw;
+        height: 60vw;
+        margin-top: 90px;
+        margin-left: -60%;
+        
+    
+    }
+    #elem3:hover{
+        scale: 1.1;
+        transition: 0.3s;
+    }
+    #img2{
+        border-radius: 0.5rem;
+        width:45vw;
+        height:70vw;
+        
+        
+        
+        margin-top: 10px;
+    }
+    #img3{
+        border-radius: 0.5rem;
+        width:45vw;
+        height:70vw;
+        
+        
+        margin-top: 10px;
+    }
+    #name1{
+        font-size: 2.7vw;
+    }
+
+    
+}
+
+
+
+

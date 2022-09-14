@@ -7,14 +7,17 @@
 }
 .columnpart1{
     float: left;
-    width: 25%;
+    width: 300px;
     
 
 }
+#img-home{
+    width:150%;margin-left:-15%;
+}
 .columnpart2{
     float:right;
-    width:60%;
-    margin-left: 20px;
+    width:68%;
+    margin-left: -30px;
 }
 #cardcolumn1{
     display: none;
@@ -47,9 +50,22 @@
     .columnpart1{
         width:30%;
     }
+    #img-home{
+        width:90%;margin-left:5%;
+    }
+    
+
     
     
 }
+@media screen and (max-width:1100px){
+    .columnpart2{
+        float:right;
+        width:60%;
+        margin-left: -30px;
+    }
+}
+
 .carousel-inner{
     margin-top:30px;
     width: 60%;
@@ -66,7 +82,7 @@
     list-style-type: none;
     float: left;
     border-radius:1rem;
-    width:12vw;
+    width:20vw;
     height: 15vw;
     margin-left:-4%;
 
@@ -74,14 +90,14 @@
 #elem1{
     float: left;
     border-radius:1rem;
-    width:12vw;
+    width:20vw;
     height: 15vw;
     margin-left:3vw;
 
 }
 #img{
     border-radius: 0.5rem;
-    width:12vw;
+    width:20vw;
     height:15vw;
     
     
@@ -90,7 +106,7 @@
 }
 #img1{
     border-radius: 0.5rem;
-    width:12vw;
+    width:20vw;
     height:20vw;
     
     
@@ -98,7 +114,7 @@
 }
 #img10{
     border-radius: 0.5rem;
-    width:12vw;
+    width:20vw;
     height:15vw;
     
     
@@ -163,19 +179,19 @@
     list-style-type: none;
 }
 #card:hover{
-    height: 600px;
-    transform: translateY(-50px);
+    height: 400px;
+    transform: translateY(-70px);
 }
 #card:hover > .content{
     opacity: 1;
-    transform: translateY(-300px);
+    transform: translateY(-150px);
 }
 
 .button1{
     width: 50px;
     border-radius: 1rem;
     cursor: pointer;
-    transform: translateY(-280px);
+    transform: translateY(-130px);
     opacity: 0;
     
 }
@@ -190,13 +206,16 @@
         display:list-item;
         z-index: 1;
     }
+    #img-home{
+        width:90%;margin-left:5%;
+    }
     #imgcar{
         width: 40vw;height:30vw;
     }
     .columnpart1{
         float: none;
         margin-top:30px;
-        width: 25%;
+        width: 300px;
         display: none;
         
     
@@ -254,6 +273,18 @@
         margin-top:80px;
         
     }
+    #img-home{
+        width:90%;margin-left:5%;
+    }
+    #list{
+        display:block;
+    }
+    #elem{
+        float:none;
+    }
+    #elem1{
+        float: none;
+    }
     #caro{
         width:50vw;margin-left:21%;
     }
@@ -310,7 +341,7 @@
         float: left;
         border-radius:1rem;
         width:27vw;
-        height:30vw;
+        height:20vw;
         margin-left:-40%;
     
     }
@@ -318,14 +349,14 @@
         float: left;
         border-radius:1rem;
         width:27vw;
-        height:30vw;
+        height:20vw;
         margin-left:3vw;
     
     }
     #img{
         border-radius: 0.5rem;
         width:27vw;
-        height:30vw;
+        height:20vw;
         
         
         
@@ -334,7 +365,7 @@
     #img10{
         border-radius: 0.5rem;
         width:27vw;
-        height:30vw;
+        height:20vw;
         
         
         margin-top: 10px;
@@ -347,11 +378,11 @@
     border-radius:1rem;
     width:13vw;
     height: 20vw;
-    margin-left:-15%;
+    margin-left:0%;
 
 }
 #elem2:hover{
-    scale: 1.1;
+    scale: 0.9;
     transition: 0.3s;
 }
 #elem3{
@@ -363,7 +394,7 @@
 
 }
 #elem3:hover{
-    scale: 1.1;
+    scale: 0.9;
     transition: 0.3s;
 }
 #img2{

@@ -327,7 +327,7 @@ function googleTranslateElementInit() {
                     <br>
                     <br>
                     <p class="h2" style="margin-left: 25px;margin-top:40px;">RESEARCH</p>
-                    <hr style="width: 70%;margin-left:25px;border-style:solid;border-width:2px;border-color:rgb(84, 83, 83);">
+                    <hr style="width: 87%;margin-left:25px;border-style:solid;border-width:2px;border-color:rgb(84, 83, 83);">
                     <br>
     
                     
@@ -377,7 +377,7 @@ function googleTranslateElementInit() {
                                     </div>
                                     <div class="content">
                                       <h5>Artificial Intelligence</h5>
-                                      <p>IIT GOA does a very wide research about Artificial Intelligence.</p>
+                                      
                                       
                                     </div>
                                     <center><button class="button1" onclick="func1();">Show</button></center>
@@ -390,7 +390,7 @@ function googleTranslateElementInit() {
                                     </div>
                                     <div class="content">
                                       <h5>Theoretical Computer Science</h5>
-                                      <p>IIT GOA does a very wide research about Theoretical Computer Science.</p>
+                                      
                                       
                                     </div>
                                     <center><button class="button1" onclick="func2();">Show</button></center>
@@ -403,7 +403,7 @@ function googleTranslateElementInit() {
                                     </div>
                                     <div class="content">
                                       <h5>Computing Systems</h5>
-                                      <p>IIT GOA does a very wide research about Computing Systems.</p>
+                                      
                                       
                                     </div>
                                     <center><button class="button1" onclick="func3();">Show</button></center>
@@ -424,45 +424,40 @@ function googleTranslateElementInit() {
                     <h3 style="margin-left: 25px;margin-top:40px;">RESEARCH FACILITIES</h3>
                     <hr style="width: 30%;margin-left:25px;border-style:solid;border-width:2px;border-color:rgb(95, 94, 94);">
                     
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div id="caro" class="carousel-item active">
+                          <img id="caroim" src="im-171445.jpg" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-inner" style="margin-bottom:50px;border-radius:1rem;">
-                          <div id="caro" class="carousel-item active">
-                            <img id="caroim" src="im-171445.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div id="caro" class="carousel-item" >
-                            <img id="caroim" src="5821.webp"  class="d-block w-100" alt="...">
-                          </div>
-                          <div id="caro" class="carousel-item" >
-                            <img id="caroim" src="artificial-intelligence-research-labs.jpg"  class="d-block w-100" alt="...">
-                          </div>
+                        <div id="caro" class="carousel-item">
+                          <img id="caroim" src="artificial-intelligence-research-labs.jpg" class="d-block w-100" alt="...">
                         </div>
-                        <button id="carobtn" class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button id="carobtn1" class="carousel-control-next"   type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+                        <div id="caro" class="carousel-item">
+                          <img id="caroim" src="5821.webp" class="d-block w-100" alt="...">
+                        </div>
                       </div>
+                      <button id="carobtn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button id="carobtn1" class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                       <br>
                       <h3 style="margin-left:25px;">Our Research Meets</h3>
                       <hr style="width: 50%;margin-left:25px;border-style:solid;border-width:2px;border-color:rgb(84, 83, 83);">
                       <br>
                       <br>
                       
-                      <div style="width:90%;margin-left:5%;">
+                      <div id="img-home">
                         <ul id="list">
-                            <center>
+                            
                             <li id="elem"><img id="img" src="FWVNihnaUAArcJb.jpg" ></li>
                             <li id="elem1"><img id="img10" src="FW5TyxIaQAAAGq2.jpg" ></li>
                             <li id="elem1"><img id="img10" src="FW5Tyw-acAAqQQs.jpg" ></li>
-                            </center>
+                            
                         </ul>
                         <br>
                         <br>
@@ -549,6 +544,14 @@ function googleTranslateElementInit() {
                       <br>
                       <br>
                       
+
+
+
+                      /*
+                      CARD COLUMN STARTS HERE
+                      */
+
+
                       <div style="width:90%;margin-left:5%;">
                         <ul id="list">
                             <center>
@@ -697,8 +700,9 @@ function googleTranslateElementInit() {
                         <p style="margin-left: 10px;margin-top:10px;margin-right:10px;">BTECH PROJECTS:</p>
                         <ul class="list-group" style="width: 80%;margin-left:10%;">
                           <a href="#" style="color: grey;text-decoration:none;"><li class="list-group-item" style="border-radius: 1rem;cursor: pointer;">&nbsp;Project1</li></a>
-                          <a href="#" style="color: grey;text-decoration:none;"><li class="list-group-item" style="border-radius: 1rem;margin-top: 10px;cursor: pointer;">&nbsp;Project2</li></a>
-                          <a href="#" style="color: grey;text-decoration:none;"><li class="list-group-item" style="border-radius: 1rem;margin-top: 10px;cursor: pointer;">&nbsp;Project3</li></a>
+                          <a href="#" style="color: grey;text-decoration:none;"data-bs-target="#staticBackdrop"><li class="list-group-item" style="border-radius: 1rem;margin-top: 10px;cursor: pointer;">&nbsp;Project2</li></a>
+                          <a href="#" style="color: grey;text-decoration:none;"data-bs-target="#staticBackdrop"><li class="list-group-item" style="border-radius: 1rem;margin-top: 10px;cursor: pointer;">&nbsp;Project3</li></a>
+                          
                           
                         </ul>
                         <p style="margin-left: 10px;margin-top:10px;margin-right:10px;">MTECH PROJECTS:</p>
@@ -719,6 +723,12 @@ function googleTranslateElementInit() {
                     <br>
                     <br>
                     
+
+
+                    /*
+                    Card starts here
+                    */
+
                     <div style="width:90%;margin-left:5%;">
                       <ul id="list">
                           <center>
@@ -892,6 +902,10 @@ function googleTranslateElementInit() {
                     <br>
                     <br>
                     
+                    /*
+                    Card starts here
+                    */
+
                     <div style="width:90%;margin-left:5%;">
                       <ul id="list">
                           <center>
@@ -1020,41 +1034,41 @@ function googleTranslateElementInit() {
     
     
                 <li class="columnpart1" style="list-style-type: none;"><div id="cardcolumn">
-                    <ul id="list2">
-                        <li id="listcom2">
-                            <div id="card">
+                    <ul id="list2" style="width:105%">
+                        <li id="listcom2" style="width:100%">
+                            <div id="card" style="width:100%">
                                 <div id="imgbox">
                                   <img id="imgo" src="B5EEA99B-9A70-44CC-B41AFC2EF100377A_source.webp">
                                 </div>
                                 <div class="content">
                                   <h5>Artificial Intelligence</h5>
-                                  <p>IIT GOA does a very wide research about Artificaial Intelligence.</p>
+                                  
                                   
                                 </div>
                                 <center><button class="button1" onclick="func1();">Show</button></center>
                               </div>
                         </li>
-                        <li id="listcom2">
-                            <div id="card">
+                        <li id="listcom2" style="width:105%">
+                            <div id="card" style="width:100%">
                                 <div id="imgbox">
                                   <img id="imgo" src="5004.jpg">
                                 </div>
                                 <div class="content">
                                   <h5>Theoretical Computer Science</h5>
-                                  <p>IIT GOA does a very wide research about Theoretical computer Science.</p>
+                                  
                                   
                                 </div>
                                 <center><button class="button1" onclick="func2();">Show</button></center>
                               </div>
                         </li>
-                        <li id="listcom2">
-                            <div id="card">
+                        <li id="listcom2" style="width:105%">
+                            <div id="card" style="width:100%">
                                 <div id="imgbox">
                                   <img id="imgo" src="ComputerSystemsOSDI_CS_Site_10_2018_1400x788-1024x576.png">
                                 </div>
                                 <div class="content">
                                   <h5>Computing Systems</h5>
-                                  <p>IIT GOA does a very wide research about Computing Systems.</p>
+                                  
                                   
                                 </div>
                                 <center><button class="button1" onclick="func3();">Show</button></center>
